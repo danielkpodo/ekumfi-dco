@@ -3,6 +3,7 @@
   border-top: 3px solid crimson;
   position: relative;
 }
+
 .cover-page h1 {
   font-size: 4rem;
   color: #ffcd3c;
@@ -49,7 +50,7 @@
   margin-top: 0.625rem;
 }
 
-.outline h2 {
+.outline h3 {
   color: #ffcd3c;
   font-weight: 800;
 }
@@ -60,4 +61,30 @@
 
 .challenges ul li {
   margin-top: 0.625rem;
+}
+
+.priority h3 {
+  color: var(--title);
+}
+
+.planning h3 {
+  color: var(--title);
+}
+
+.planning ul li {
+  margin-top: 0.625rem;
+}
+
+.eso h3 {
+  color: var(--title);
+  font-size: 2.5rem;
+}
+
+.apexcharts-menu {
+  background-color: #27293d !important;
+  border: 0px;
+}
+
+.apexcharts-menu:hover {
+  color: #000;
 }
