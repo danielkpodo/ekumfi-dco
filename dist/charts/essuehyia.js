@@ -2,15 +2,15 @@ var options = {
   series: [
     {
       name: "2020",
-      data: [1126, 991, 1009, 1046, 1128, 985, 809, 712, 1045],
+      data: [101.2, 89.0, 90.7, 93.4, 101.3, 89.9, 96.2, 76.0, 82.7],
     },
     {
       name: "2019",
-      data: [1081, 1099, 1073, 1063, 1058, 1037, 877, 921, 1070],
+      data: [98.7, 100.4, 98.0, 97.1, 96.6, 94.7, 97.7, 80.1, 84.1],
     },
     {
       name: "2018",
-      data: [1024, 995, 982, 975, 926, 971, 980, 960, 917],
+      data: [96.3, 93.6, 92.4, 91.7, 87.1, 91.3, 86.3, 92.2, 90.3],
     },
   ],
   chart: {
@@ -33,6 +33,9 @@ var options = {
 
   dataLabels: {
     enabled: true,
+    formatter: function (value) {
+      return value + "%";
+    },
   },
   stroke: {
     curve: "smooth",
@@ -66,9 +69,9 @@ var options = {
       "ROTA2",
       "PENTA3",
       "MR2",
+      "YF",
       "MENA",
       "TT2+",
-      "YF",
     ],
     title: {
       text: "Antigens",
@@ -89,6 +92,11 @@ var options = {
     },
   },
   yaxis: {
+    labels: {
+      formatter: function (value) {
+        return value + "%";
+      },
+    },
     title: {
       text: "Number of Children Vaccinated",
       style: {
@@ -100,14 +108,13 @@ var options = {
     },
   },
   legend: {
-    position: "top",
-    horizontalAlign: "right",
-    floating: true,
-    offsetY: -25,
-    offsetX: -5,
+    position: "bottom",
     fontSize: "14px",
     fontFamily: "JetBrains Mono",
     fontWeight: 400,
+    onItemClick: {
+      toggleDataSeries: true,
+    },
   },
   tooltip: {
     enabled: true,
