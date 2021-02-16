@@ -14,13 +14,17 @@
   max-width: 100%;
 }
 
-.cover-page h2 {
+.cover-page h3 {
   text-transform: capitalize;
   font-size: 2rem;
   font-weight: 400;
   letter-spacing: 2px;
   text-shadow: -1px 1px 0 #fff, 1px 1px 0 #fff, 1px -1px 0 #fff,
     -1px -1px 0 #fff;
+}
+
+:root {
+  --title: #ffcd3c;
 }
 
 .cover-page p {
@@ -48,4 +52,12 @@
 .outline h2 {
   color: #ffcd3c;
   font-weight: 800;
+}
+
+.challenges h3 {
+  color: var(--title);
+}
+
+.challenges ul li {
+  margin-top: 0.625rem;
 }
