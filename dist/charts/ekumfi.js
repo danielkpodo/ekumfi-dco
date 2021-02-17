@@ -1,47 +1,52 @@
 var options = {
   series: [
     {
-      //target_pop:582
+      //target_pop:2510
       name: "2020",
+      type: "column",
       data: [103.8, 94.7, 96.0, 100.4, 107.4, 95.8, 97.9, 79.0, 90.8],
     },
     {
-      //target_pop:573
+      //target_pop: 2468
       name: "2019",
+      type: "column",
       data: [92.8, 97.3, 97.0, 96.0, 96.5, 93.8, 93.8, 82.2, 103.2],
     },
     {
-      //target_pop: 555
+      //target_pop: 2434
       name: "2018",
+      type: "column",
       data: [81.7, 88.5, 88.5, 89.0, 87.2, 83.1, 80.4, 81.3, 84.5],
+    },
+    {
+      name: "Trend in 2020",
+      type: "line",
+      data: [103.8, 94.7, 96.0, 100.4, 107.4, 95.8, 97.9, 79.0, 90.8],
     },
   ],
   chart: {
     height: 500,
     background: "#fff",
     type: "line",
-    dropShadow: {
-      enabled: true,
-      color: "#000",
-      top: 18,
-      left: 7,
-      blur: 10,
-      opacity: 0.2,
-    },
     toolbar: {
       show: true,
-      background: "red",
     },
   },
-  colors: ["#fb743e", "#00af91", "#ec4646"],
+  plotOptions: {
+    bar: {
+      dataLabels: {
+        position: "top", // top, center, bottom
+      },
+    },
+  },
+
+  colors: ["#4d375d", "#ec4646", "#ad6c80"],
   dataLabels: {
     enabled: true,
-    formatter: function (value) {
-      return value + "%";
-    },
+    enabledOnSeries: [3],
   },
   stroke: {
-    curve: "smooth",
+    width: [0, 0, 0, 4],
   },
   title: {
     text: "EPI Coverage for Ekumfi From 2018-2020",
@@ -121,23 +126,9 @@ var options = {
   },
   tooltip: {
     enabled: true,
-    enabledOnSeries: undefined,
-    shared: true,
-    followCursor: false,
-    intersect: false,
-    inverseOrder: false,
-    custom: undefined,
-    fillSeriesColor: false,
     theme: "dark",
-    style: {
-      fontSize: "12px",
-      fontFamily: undefined,
-    },
-    onDatasetHover: {
-      highlightDataSeries: false,
-    },
   },
 };
 
-var chart = new ApexCharts(document.querySelector("#otuam"), options);
+var chart = new ApexCharts(document.querySelector("#ekumfi"), options);
 chart.render();
