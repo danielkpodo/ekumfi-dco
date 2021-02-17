@@ -102,7 +102,7 @@
 }
 
 .district > h4 {
-  color: var(--title);
+  color: #ffc75f;
   padding: 10px;
 }
 
@@ -110,9 +110,15 @@
   font-size: 30px;
   border-radius: 10px;
   font-family: "JetBrains Mono";
+  font-weight: 600;
 }
 
 .ekumfi-visual h3 {
+  font-size: 3rem;
+  color: var(--title);
+}
+
+.dropout-rate h3 {
   font-size: 3rem;
   color: var(--title);
 }
