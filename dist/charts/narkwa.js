@@ -29,7 +29,7 @@ var options = {
       show: true,
     },
   },
-  colors: ["#8b5e83", "#161d6f", "#c70039"],
+  colors: ["#ff5e78", "#822659", "#845ec2"],
   dataLabels: {
     enabled: true,
     formatter: function (value) {

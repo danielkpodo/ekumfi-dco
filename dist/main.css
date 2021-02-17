@@ -88,3 +88,7 @@
 .apexcharts-menu:hover {
   color: #000;
 }
+
+.narkwa h3 {
+  color: var(--title);
+}
