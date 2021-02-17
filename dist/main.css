@@ -96,3 +96,14 @@
 .otuam h3 {
   color: var(--title);
 }
+
+.district > h4 {
+  color: var(--title);
+  padding: 10px;
+}
+
+.district table {
+  font-size: 30px;
+  border-radius: 10px;
+  font-family: "JetBrains Mono";
+}
