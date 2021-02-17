@@ -30,7 +30,7 @@ var options = {
     },
   },
 
-  colors: ["#4d375d", "#ec4646", "#ad6c80"],
+  colors: ["#314e52", "#f2a154", "#350b40"],
   dataLabels: {
     enabled: true,
   },
