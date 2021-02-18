@@ -136,3 +136,7 @@
 .tb h3 {
   color: var(--title);
 }
+
+.tb-infection h3 {
+  color: var(--title);
+}
