@@ -52,7 +52,7 @@
 .outline h3 {
   color: #ffcd3c;
   font-weight: 800;
-  font-size: 3rem;
+  font-size: 3.5rem;
 }
 
 .challenges h3 {
@@ -159,4 +159,24 @@
   font-size: 30px;
   font-family: "JetBrains Mono";
   font-weight: 600;
+}
+
+.covid-img h3 {
+  color: var(--title);
+}
+
+.current-challenges h3 {
+  color: var(--title);
+}
+
+.current-challengesul ul > li {
+  margin-bottom: 10px;
+}
+
+.objectives h3 {
+  color: var(--title);
+}
+
+.way-forward h3 {
+  color: var(--title);
 }
