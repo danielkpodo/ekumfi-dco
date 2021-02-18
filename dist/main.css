@@ -140,3 +140,13 @@
 .tb-infection h3 {
   color: var(--title);
 }
+
+.treatment-outcomes h3 {
+  color: var(--title);
+}
+
+.treatment-outcomes table {
+  font-size: 30px;
+  font-weight: 600;
+  font-family: "JetBrains Mono";
+}
