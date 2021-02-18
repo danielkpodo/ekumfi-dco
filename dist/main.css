@@ -132,3 +132,7 @@
   font-size: 30px;
   font-family: "JetBrains Mono";
 }
+
+.tb h3 {
+  color: var(--title);
+}
