@@ -713,8 +713,10 @@
     <script src="plugin/search/search.js"></script>
     <script src="plugin/markdown/markdown.js"></script>
     <script src="plugin/highlight/highlight.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js-menu@2.1.0/menu.js"></script>
     <script>
       Reveal.initialize({
+        transition: "convex",
         controls: true,
         progress: true,
         center: true,
@@ -727,6 +729,7 @@
           RevealSearch,
           RevealMarkdown,
           RevealHighlight,
+          RevealMenu,
         ],
         slideNumber: "c/t",
       });
