@@ -59,7 +59,7 @@
   <body>
     <div class="reveal">
       <div class="slides">
-        <section>
+        <section class="slide" data-transition="slide">
           <div class="cover-page">
             <div id="particles-js"></div>
             <h1>Ekumfi District Health Directorate</h1>
@@ -72,7 +72,7 @@
             <p>Presented By <span class="dcu"> Disease Control Unit</span></p>
           </div>
         </section>
-        <section>
+        <section data-transition="slide-in fade-out">
           <div class="outline">
             <h3>Presentation Outline</h3>
             <ul class="list-group">
@@ -571,7 +571,50 @@
         <section>
           <div class="covid-img">
             <h3>COVID-19 Related Activities</h3>
-            <p>Images will be shown here: use pic to explain</p>
+            <div class="r-stack">
+              <img
+                class="fragment fade-up img-fluid img-thumbnail"
+                src="./examples/assets/image1.jpeg"
+                title="Training of Health Workers"
+                width="600px"
+                height="600px"
+              />
+              <img
+                class="fragment fade-up img-fluid img-thumbnail"
+                src="./examples/assets/image2.jpg"
+                width="600px"
+                height="600px"
+                title="Health Education"
+              />
+              <img
+                class="fragment fade-up img-fluid img-thumbnail"
+                src="./examples/assets/image3.jpg"
+                width="600px"
+                height="600px"
+                title="Chief Aziz in PPE Gear"
+              />
+              <img
+                class="fragment fade-up img-fluid img-thumbnail"
+                src="./examples/assets/image4.jpeg"
+                width="600px"
+                height="600px"
+                title="Delivery of Samples @Nougouchi Memorial"
+              />
+              <img
+                class="fragment fade-up img-fluid img-thumbnail"
+                src="./examples/assets/image5.jpg"
+                width="600px"
+                height="600px"
+                title="Radio Communication by Epidemiologist Wealthy"
+              />
+              <img
+                class="fragment fade-up img-fluid img-thumbnail"
+                src="./examples/assets/image6.jpg"
+                width="600px"
+                height="600px"
+                title="Delivery of COVID19 items by Plan Ghana"
+              />
+            </div>
           </div>
         </section>
         <section class="current-challenges">
@@ -665,14 +708,26 @@
     </div>
 
     <script src="dist/reveal.js"></script>
+    <script src="plugin/zoom/zoom.js"></script>
     <script src="plugin/notes/notes.js"></script>
+    <script src="plugin/search/search.js"></script>
     <script src="plugin/markdown/markdown.js"></script>
     <script src="plugin/highlight/highlight.js"></script>
     <script>
       Reveal.initialize({
+        controls: true,
+        progress: true,
+        center: true,
         hash: true,
+
         // Learn about plugins: https://revealjs.com/plugins/
-        plugins: [RevealMarkdown, RevealHighlight, RevealNotes],
+        plugins: [
+          RevealZoom,
+          RevealNotes,
+          RevealSearch,
+          RevealMarkdown,
+          RevealHighlight,
+        ],
       });
     </script>
     <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.js"></script>
