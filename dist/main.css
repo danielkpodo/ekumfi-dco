@@ -203,3 +203,7 @@
   display: inline-block;
   line-height: 1em;
 }
+
+.letters {
+  color: var(--title);
+}
