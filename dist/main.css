@@ -5,8 +5,9 @@
 
 .cover-page h1 {
   font-size: 4rem;
-  color: #000;
+  color: #1e212d;
   text-transform: uppercase;
+  color: #1e212d;
   font-family: "Oswald", sans-serif;
 }
 
@@ -18,11 +19,10 @@
   text-transform: capitalize;
   font-size: 2rem;
   font-weight: 400;
-  letter-spacing: 2px;
 }
 
 :root {
-  --title: #000;
+  --title: #1e212d;
 }
 
 .cover-page p {
