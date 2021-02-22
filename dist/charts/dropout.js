@@ -57,6 +57,12 @@ var options = {
     size: 1,
   },
   xaxis: {
+    labels: {
+      style: {
+        fontSize: "18px",
+        fontWeight: 700,
+      },
+    },
     categories: ["PENTA1/PENTA3", "BCG/MR", "MR1/MR2"],
     title: {
       text: "Antigens",
@@ -80,6 +86,11 @@ var options = {
     labels: {
       formatter: function (value) {
         return value + "%";
+      },
+
+      style: {
+        fontSize: "18px",
+        fontWeight: 700,
       },
     },
     title: {

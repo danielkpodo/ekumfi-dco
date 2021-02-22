@@ -77,7 +77,7 @@ var options = {
       "MR2",
       "YF",
       "MENA",
-      "TT2+",
+      "TD2+",
     ],
     title: {
       text: "Antigens",

@@ -60,6 +60,12 @@ var options = {
     size: 1,
   },
   xaxis: {
+    labels: {
+      style: {
+        fontSize: "18px",
+        fontWeight: 700,
+      },
+    },
     categories: ["Cases Notified", "Smear Positive", "Smear Negative"],
     title: {
       text: "TB Classifications",
@@ -88,6 +94,12 @@ var options = {
         fontSize: "16px",
         fontFamily: "JetBrains Mono",
         fontWeight: 600,
+      },
+    },
+    labels: {
+      style: {
+        fontSize: "18px",
+        fontWeight: 700,
       },
     },
   },

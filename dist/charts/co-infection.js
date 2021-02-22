@@ -51,6 +51,12 @@ var options = {
     colors: ["#fff"],
   },
   xaxis: {
+    labels: {
+      style: {
+        fontSize: "18px",
+        fontWeight: 700,
+      },
+    },
     categories: ["TB Cases", "HIV+"],
     title: {
       text: "Cases Count",
@@ -59,6 +65,14 @@ var options = {
         fontSize: "16px",
         fontFamily: "JetBrains Mono",
         fontWeight: 600,
+      },
+    },
+  },
+  yaxis: {
+    labels: {
+      style: {
+        fontSize: "18px",
+        fontWeight: 700,
       },
     },
   },
