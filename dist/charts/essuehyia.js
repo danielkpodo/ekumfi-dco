@@ -51,6 +51,7 @@ var options = {
       color: "#000",
     },
   },
+  colors: ["#fb743e", "#00af91", "#ec4646"],
   grid: {
     borderColor: "#e7e7e7",
     row: {

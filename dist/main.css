@@ -7,7 +7,7 @@
   font-size: 4rem;
   color: #1e212d;
   text-transform: uppercase;
-  color: #1e212d;
+  color: #e40017;
   font-family: "Oswald", sans-serif;
 }
 
@@ -22,7 +22,7 @@
 }
 
 :root {
-  --title: #1e212d;
+  --title: #e40017;
 }
 
 .cover-page p {
@@ -48,7 +48,7 @@
 }
 
 .outline h3 {
-  color: #000;
+  color: #e40017;
   font-weight: 800;
   font-size: 3.5rem;
 }
@@ -100,7 +100,7 @@
 }
 
 .district > h4 {
-  color: #000;
+  color: #e40017;
   padding: 10px;
 }
 
