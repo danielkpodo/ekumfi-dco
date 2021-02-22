@@ -207,3 +207,7 @@
 .letters {
   color: var(--title);
 }
+
+.live {
+  font-size: 25px;
+}
