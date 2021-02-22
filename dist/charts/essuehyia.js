@@ -62,6 +62,12 @@ var options = {
     size: 1,
   },
   xaxis: {
+    labels: {
+      style: {
+        fontSize: "18px",
+        fontWeight: 700,
+      },
+    },
     categories: [
       "BCG",
       "OPV1",
@@ -95,6 +101,10 @@ var options = {
     labels: {
       formatter: function (value) {
         return value + "%";
+      },
+      style: {
+        fontSize: "16px",
+        fontWeight: 700,
       },
     },
     title: {
