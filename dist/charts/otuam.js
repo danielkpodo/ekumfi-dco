@@ -139,7 +139,6 @@ var options = {
     inverseOrder: false,
     custom: undefined,
     fillSeriesColor: false,
-    theme: "dark",
     style: {
       fontSize: "12px",
       fontFamily: undefined,

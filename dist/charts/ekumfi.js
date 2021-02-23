@@ -139,7 +139,6 @@ var options = {
   },
   tooltip: {
     enabled: true,
-    theme: "dark",
   },
 };
 
